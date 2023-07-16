@@ -23,6 +23,7 @@ body {
     width: 675px;
     align-items: flex-start;
     gap: 10px;
+    background: radial-gradient(50% 50% at 30% 30%, rgba(170, 20, 240, 0.28) 10%, rgba(170, 20, 240, 0.00) 90%);
 }
 .logo h3 {
     color: #FFF;
@@ -172,3 +173,96 @@ body {
     width: 566px;
     height: 568px;
 }
+.images_section_1 {
+    display: flex;
+    gap: 154px;
+    margin-top: 117px;
+}
+.img_section_1 {
+    width: 532px;
+    height: 439px;
+}
+.images_section_1 .letter_section_1 {
+    margin-top: 80px   ;
+}
+.images_section_1 .letter_section_1 h2 {
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.images_section_1 .letter_section_1 h2 span {
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.images_section_1 .letter_section_1 p {
+    width: 524px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.images_section_1 .letter_section_1 button {
+    display: flex;
+    border: none;
+    margin-top: 52px;
+    width: 137px;
+    height: 44px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border-radius: 5px;
+    background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+}
+.section_card .card_letter h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+} 
+.section_card .card_letter h2 span {
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.section_card .card_letter p {
+    display: flex;
+    justify-content: center;
+    width: 584px;
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
