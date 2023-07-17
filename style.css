@@ -224,6 +224,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
     color: #FFF;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
@@ -232,6 +233,9 @@ body {
     line-height: normal;
     border-radius: 5px;
     background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+}
+.section_card {
+    margin-top: 166px;
 }
 .section_card .card_letter h2 {
     color: #FFF;
@@ -254,9 +258,9 @@ body {
     line-height: normal;
 }
 .section_card .card_letter p {
-    display: flex;
-    justify-content: center;
+    margin: 0 auto;
     width: 584px;
+    margin-top: 16px;
     color: rgba(255, 255, 255, 0.80);
     text-align: center;
     font-family: 'Poppins', sans-serif;
@@ -265,4 +269,131 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+ .cards {
+    display: flex;
+    align-items: flex-start;
+    gap: 38px;
+    margin-top: 87px;
+    width: 1200px;
+    flex-wrap: wrap;
+}
+ .cards .card {
+    padding: 20px;
+    width: 374px;
+    border-radius: 0px 15px 0px 0px;
+    background: #090823;
+}
+.cards .card>div:nth-child(1)>img {
+    width: 335px;
+    height: 217px;
+    border-radius: 0px 15px 0px 0px;    
+    display: flex;
+    justify-content: center;
+}
+.cards .card h3 {
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 23px;
+} 
+.cards .card p {
+    width: 336px;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    margin-top: 8px;
+    font-weight: 400;
+    line-height: normal;
+}
+.cards .card .card_btn {
+    margin-top: 28px;
+    gap: 13px;
+    margin-bottom: 37px;
+    display: flex;
+}
+.cards .card .card_btn button:nth-child(1) {
+    border: none;
+    display: flex;
+    width: 103px;
+    padding: 12px 14px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #FFF;
+    background: #170426;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cards .card .card_btn>button:nth-child(2) {
+    border: none;
+    display: flex;
+    width: 122px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background: #090823;
+    color: #FFF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.cards .card .card_btn button:hover {
+    background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
+}
+.section_video {
+    text-align: center;
+    margin-top: 186px;
+}
+.section_video h2 {
+    color: #FFF;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.section_video h2 span {
+    background: var(--2, linear-gradient(158deg, #F86CF8 0%, #64CEF5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.section_video p {
+    width: 561.516px;
+    margin: 0 auto;
+    margin-top: 16px;
+    transform: rotate(0.26deg);
+    color: rgba(255, 255, 255, 0.80);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.section_video img {
+    width: 1182px;
+    height: 650px;
+    margin-top: 55px;
+    border-radius: 25px;
+}
+
 
